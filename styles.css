@@ -1,0 +1,125 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}                                                     
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width:100%;
+    background-color: white;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navpart1{
+    display:flex;
+    margin-left:30px;
+    gap: 1px;
+}
+
+.navpart3{
+    display:flex;
+    gap: 1px;
+    margin-right: 30px;
+}
+button{
+    background-color: white;
+    border:1.5px solid black;
+    border-radius: 30px;
+    padding:8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+i{
+    margin-top: 8px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#sign{
+    color: white;
+    background-color: #ff4e27;
+}
+#sign:hover{
+    color:black;
+    background-color: white;
+}
+#text{
+    width: 100%;
+    font-size: 180px;
+    font-weight:900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#img1{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-40deg);
+    object-fit: cover;
+    border-radius: 25px;
+}
+#img2{
+    rotate: 10;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+    object-fit: cover;
+    border-radius: 25px;
+}
+#img3{
+    rotate: 10;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-20deg);
+    object-fit: cover;
+    border-radius: 25px;
+}
+#img4{
+    rotate: 10;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    border-radius: 25px;
+}
+#p1{
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+}
+#p2{
+    position: absolute;
+    left: 90%;
+    bottom: 4%;
+}
+.icons{
+    display: flex;
+    position: absolute;
+    gap: 2px;
+    left: 91%;
+    bottom: 7%;
+}
